@@ -3,7 +3,7 @@
   <Name>onlyoffice-document-server-ie</Name>
   <Repository>onlyoffice/documentserver-ie</Repository>
   <Registry>https://hub.docker.com/r/onlyoffice/documentserver-ie</Registry>
-  <Network>onlyoffice</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
