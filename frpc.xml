@@ -28,5 +28,5 @@
   <Environment/>
   <Labels/>
   <Config Name="Path for config file" Target="/etc/frp/" Default="" Mode="r" Description="Container Path: /etc/frp/" Type="Path" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Path for logs" Target="/etc/frpc/log" Default="" Mode="r" Description="Container Path: /etc/frp/" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Path for logs" Target="/etc/frpc/log" Default="" Mode="r" Description="Container Path: /etc/frpc/log" Type="Path" Display="always" Required="true" Mask="false"></Config>
 </Container>
