@@ -11,6 +11,7 @@
   <Project></Project>
   <Overview></Overview>
   <Category>Productivity: Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:7400]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/xiaoxiaozi/unraid_docker_template/master/frpc.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/AMJidovu/unraid-repository/d5a562fa4a7b73065dd022e585d80d4b77d0abfa/img/onlyoffice-ce-ds.jpg</Icon>
   <ExtraParams/>
@@ -18,14 +19,6 @@
   <CPUset/>
   <DateInstalled>1575675669</DateInstalled>
   <Description>Template for snowdreamtech/frpc</Description>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/onlyoffice/DocumentServer/logs</HostDir>
-      <ContainerDir>/var/log/onlyoffice</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment/>
   <Labels/>
   <Config Name="Path for config file" Target="/etc/frp/" Default="" Mode="r" Description="Container Path: /etc/frp/" Type="Path" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Path for logs" Target="/etc/frpc/log" Default="" Mode="r" Description="Container Path: /etc/frpc/log" Type="Path" Display="always" Required="true" Mask="false"></Config>
