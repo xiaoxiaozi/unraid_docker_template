@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Socks5</Name>
+  <Repository>olebedev/socks5</Repository>
+  <Registry>https://hub.docker.com/r/olebedev/socks5</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project></Project>
+  <Overview></Overview>
+  <Category>Network:Proxy</Category>
+  <WebUI></WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/xiaoxiaozi/unraid_docker_template/master/socks5.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/AMJidovu/unraid-repository/d5a562fa4a7b73065dd022e585d80d4b77d0abfa/img/onlyoffice-ce-ds.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1575675669</DateInstalled>
+  <Description>Template for olebedev/socks5</Description>
+  <Labels/>
+  <Config Name="Socks5 Port" Target="1080" Default="1080" Mode="tcp" Description="Container Port: 1080" Type="Port" Display="always" Required="false" Mask="false">1080</Config>
+</Container>
