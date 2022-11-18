@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Socks5</Name>
+  <Repository>xiaoxiaozi/jellyfin-webdav</Repository>
+  <Registry>https://hub.docker.com/r/xiaoxiaozi/jellyfin-webdav</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project></Project>
+  <Overview></Overview>
+  <Category>Network:Proxy</Category>
+  <WebUI></WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/xiaoxiaozi/unraid_docker_template/master/jellyfin-webdav.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-transparent.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1668755151</DateInstalled>
+  <Description>Template for xiaoxiaozi/jellyfin-webdav</Description>
+  <Labels/>
+  <Config Name="Path for secret file" Target="/root/.davfs2" Default="" Mode="r" Description="Container Path: /root/.davfs2" Type="Path" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Jellyfin Port" Target="8096" Default="8096" Mode="tcp" Description="Container Port: 8096" Type="Port" Display="always" Required="true" Mask="false">8096</Config>
+</Container>
