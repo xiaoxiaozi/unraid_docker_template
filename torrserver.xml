@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TorrServer</Name>
+  <Repository>xiaoxiaozi/torrserver</Repository>
+  <Registry>https://hub.docker.com/r/xiaoxiaozi/torrserver</Registry>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5665</HostPort>
+        <ContainerPort>5665</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support></Support>
+  <Project></Project>
+  <Overview></Overview>
+  <Category>MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:5665]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/xiaoxiaozi/unraid_docker_template/master/torrserver.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/xiaoxiaozi/unraid_docker_template/master/icons/torrserver.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <Description>Template for xiaoxiaozi/torrserver</Description>
+  <Labels/>
+</Container>
